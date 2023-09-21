@@ -1,71 +1,62 @@
 a {
-    text-decoration: none;
-    color: black;
-    font-size: 50px;
-    display: inline;
-    justify-content: space-between;
-    padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  display: inline;
+  justify-content: space-between;
+  padding: 20px;
 }
-  #image{
-    height: 90px;
- 
-  }
-  #one {
-    padding-left: 500px;
-  }
-  p {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 20px;
-  }
-  div {
-    display: inline;
-    padding: 90px;
-  }
+#image {
+  height: 90px;
+}
+#one {
+  padding-left: 500px;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+div {
+  display: inline;
+  padding: 90px;
+}
 
-  #briyani,
-  #pizza,
-  #burger {
-    height:300px;
-    width:280px;
-    border-radius: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+#briyani,
+#pizza,
+#burger {
+  height: 300px;
+  width: 280px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
-  span{
-    font-weight:10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size:30px;
-    color: azure;
-    position: relative;
-    left: 120px;
-  }
-  form div{
-    display:block;
-    padding :20px;
-    
-    
-  }
-  form{
-    background-image: url("https://restaurantclicks.com/wp-content/uploads/2023/06/popular-american-foods.jpg");
-    box-shadow:20px;
-    height:500px;
-    width:800px;
-    background-repeat: no-repeat;
-    margin-left: 300px;
-    border-radius:50px;
-    
+span {
+  font-weight: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: rgb(14, 16, 16);
+  position: relative;
+  left: 120px;
+}
+form div {
+  display: block;
+  padding: 20px;
+}
+form {
+  box-shadow: 20px;
+  height: 500px;
+  width: 800px;
+}
+input {
+  border: solid 1px;
+  height: 30px;
+  width: 400px;
+  position: relative;
+  left: 140px;
+  margin-top: 30px;
+}
 
-  }
-  input{
-    border:solid 1px;
-    height:30px;
-    width:400px;
-    position: relative;
-    left: 140px; 
-    margin-top:30px;
-  }
-  
-  a:hover{
-    color:red;
-  }
+a:hover {
+  color: red;
+}
