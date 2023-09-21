@@ -47,6 +47,7 @@ form {
   box-shadow: 20px;
   height: 500px;
   width: 800px;
+  position:relative
 }
 input {
   border: solid 1px;
@@ -59,4 +60,17 @@ input {
 
 a:hover {
   color: red;
+}
+#img1{
+
+  height:500px;
+  width: 500px;
+  border-radius: 3px ;
+  position:absolute
+
+
+}
+.container #img1,#form{
+
+  display:flex;
 }
