@@ -6,8 +6,9 @@ a {
     justify-content: space-between;
     padding: 20px;
 }
-  img{
+  #image{
     height: 90px;
+ 
   }
   #one {
     padding-left: 500px;
@@ -18,7 +19,7 @@ a {
   }
   div {
     display: inline;
-    padding: 100px;
+    padding: 90px;
   }
 
   #briyani,
@@ -34,7 +35,10 @@ a {
   span{
     font-weight:10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size:20px;
+    font-size:30px;
+    color: azure;
+    position: relative;
+    left: 120px;
   }
   form div{
     display:block;
@@ -43,17 +47,23 @@ a {
     
   }
   form{
-    border:solid 1px;
-   max-width: auto;
-    border-radius:10px;
+    background-image: url("https://restaurantclicks.com/wp-content/uploads/2023/06/popular-american-foods.jpg");
     box-shadow:20px;
-    background-color:rgb(194, 107, 107);
+    height:500px;
+    width:800px;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    border-radius:50px;
+    
 
   }
   input{
     border:solid 1px;
     height:30px;
-    width:400px; 
+    width:400px;
+    position: relative;
+    left: 140px; 
+    margin-top:30px;
   }
   
   a:hover{
